@@ -1,4 +1,4 @@
-# Sudoku Solver and Game
+# Sudoku
 Ce projet est une implémentation d'un jeu de Sudoku en Python avec une interface graphique réalisée à l'aide de Tkinter.
 Il permet de jouer au Sudoku en générant des grilles aléatoires de différents niveaux de difficulté.
 
