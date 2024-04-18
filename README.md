@@ -28,4 +28,6 @@ Il permet de jouer au Sudoku en générant des grilles aléatoires de différent
 5. Une fois la grille complétée correctement, un message de félicitations s'affiche avec le temps écoulé pour résoudre la grille.
 ## Auteur
 - Louis CHAZOT alias Astr0Tek
+## Licence
+Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
 ## Bon jeu !!!
