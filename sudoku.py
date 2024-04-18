@@ -266,8 +266,17 @@ class Sudoku:
                 n=True
                 break
         if n==True:
-            if self.verifie(np.array(u_s))==False:
-                tk.messagebox.showinfo("Erreur", "Vous avez fait une erreur quelque part.")
+            v=True
+            for i in range(9):
+                for j in range(9):
+                    if self.grid[i][j]==0 and u_s[i][j]!=0:
+                        if u_s[i][j]!=self.solution[i,j]:
+                            v=False
+            if v==False:
+                if self.verifie(np.array(u_s))==False:
+                    tk.messagebox.showerror("Erreur", "Vous avez fait une erreur quelque part.")
+                else:
+                    tk.messagebox.showinfo("Félicitation", "Pour l'instant tout est correct!")
             else:
                 tk.messagebox.showinfo("Félicitation", "Pour l'instant tout est correct!")
             return
